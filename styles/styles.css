@@ -1,8 +1,23 @@
 /* colors for the project */
 :root{
+--clay:#8d603f;
+--beige:#fdf8f0;
+--olive: #a7a376;
+--Greige: #61594f;
+}
+/* * {  */
+    /* box-sizing: border-box; */
+/* } */
 
-
-
+.body{
+    background-color: var(--beige);  
+    width: 100%;
+    max-width: 200vw;
+    margin: auto;
+    overflow-x: hidden;
+}
+.body_closet_img {
+ width: 200px;
 };
 
 /* header */
