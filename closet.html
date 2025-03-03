@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,100 +10,119 @@
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
         <script src="https://kit.fontawesome.com/f5024817d9.js" crossorigin="anonymous"></script>
     </head>
-    <header>
-        <nav>
-   <!-- Site menu and logo up here also the cart icon and login icon  -->      
-        <a href="closet.html">closet</a> 
-         <a href="about.html">about</a>
-         <a href="login.html">login</a>
-         <a href="wearcart.html">wearcart</a>
-         <img src="public/images/logo.png" alt="logo picture that says shop your clothes with a symbol of a hanger ">
-         <form action="">
-            <label for="Search">Search</label>
-            <input type="Search Closet" name="Search Closet" id="Search Closet" placeholder="Search Closet">
-         </form>
-         <a href="wearcart.html" class="fa-solid fa-cart-shopping">Wear cart</a>
-         <a href="login.html" class="fa-solid fa-circle-user">Login</a>
-         <!-- need a search bar here as well  -->
-        </nav>
-    </header>
-    <div>
-        <body>
-            <h1>Your Closet</h1>
-            <button>Add to Your Closet</button> 
-             <!-- add closet filter option buttons categories /Hardly worn / shirts/ pants /dresses_robes/
-             skirts/shoes/accessories/outerwear  -->
-             <div>
-             <button>Hardly Worn</button> 
-             <button>Shirts</button> 
-             <button>Pants</button> 
-             <button>Dresses_robes</button>
-             <button>Skirts</button>
-             <button>Shoes</button>
-             <button>Accessories</button>
-             <button>Outerwear</button>
-             </div>
-             <div class="body_closet_img">
-                 <Div>
-                     <img src="public/images/Outerwear_temp_image.png" alt="Outerwear">
-                     <P>Description</P>
-                     <p>Last Worn Date</p>
-                     <Button>Wear</Button>
-                 </Div>
-                 <Div>
-                     <img src="public/images/Dress_temp_image.png" alt="Dresses">
-                     <P>Description</P>
-                     <p>Last Worn Date</p>
-                     <Button>Wear</Button>
-                 </Div>
-                <div>
-                 <img src="public/images/Pants_temp_image.png" alt="Pants">
-                 <P>Description</P>
-                 <p>Last Worn Date</p>
-                 <button>Wear</button>
+    <div class="entire_page">
+        <div class="header_navigation">
+            <header>
+               
+                <nav> 
+           <!-- Site menu and logo up here also the cart icon and login icon  -->     
+                <div class="header_navigation_left">
+                    <a href="closet.html">closet</a>
+                    <a href="about.html">about</a>
+                    <a href="login.html">login</a>
+                    <a href="wearcart.html">wearcart</a>
                 </div>
+            </nav>
+                <img src="public/images/logo.png" alt="logo picture that says shop your clothes with a symbol of a hanger ">
+                <div class="header_navigation_right">
+                    <form action="">
+                        <label for="Search">Search</label>
+                        <input type="Search Closet" name="Search Closet" id="Search Closet" placeholder="Search Closet">
+                     </form>
+                     <a href="wearcart.html" class="fa-solid fa-cart-shopping">Wear cart</a>
+                     <a href="login.html" class="fa-solid fa-circle-user">Login</a>
+                </div>
+                </nav>
+                </div>
+                 <!-- need a search bar here as well  -->
+            </header>
+        </div>
+        <div class="body_sizing">
+            <body>
+                <h1>Your Closet</h1>
+                <div class="body_closet_addto">
+                    <button>Add to Your Closet</button> 
+                </div>
+               
+                 <!-- add closet filter option buttons categories /Hardly worn / shirts/ pants /dresses_robes/
+                 skirts/shoes/accessories/outerwear  -->
+                 <div class="body_closet_options">
+                 <button>Hardly Worn</button>
+                 <button>Shirts</button>
+                 <button>Pants</button> 
+                 <button>Dresses_robes</button>
+                 <button>Skirts</button>
+                 <button>Shoes</button>
+                 <button>Accessories</button>
+                 <button>Outerwear</button>
+                 </div>
+                 <div class="body_closet_inventory">
+                     <Div >
+                         <img src="public/images/Outerwear_temp_image.png" alt="Outerwear">
+                         <P>Description</P>
+                         <p>Last Worn Date</p>
+                         <Button>Wear</Button>
+                     </Div>
+                     <Div>
+                         <img src="public/images/Dress_temp_image.png" alt="Dresses">
+                         <P>Description</P>
+                         <p>Last Worn Date</p>
+                         <Button>Wear</Button>
+                     </Div>
+                    <div>
+                     <img src="public/images/Pants_temp_image.png" alt="Pants">
+                     <P>Description</P>
+                     <p>Last Worn Date</p>
+                     <button>Wear</button>
+                    </div>
+                     <div>
+                         <img src="public/images/Shirt_temp_image.png" alt="Shirts">
+                         <P>Description</P>
+                         <p>Last Worn Date</p>
+                         <button>Wear</button>
+                     </div>
+                   <div>
+                     <img src="public/images/Shoes_temp_image.png" alt="Shoes">
+                     <P>Description</P>
+                     <p>Last Worn Date</p>
+                     <button>Wear</button>
+                   </div>
+                   <div>
+                     <img src="public/images/Accessories_temp_image.png" alt="Accessories">
+                     <P>Description</P>
+                     <p>Last Worn Date</p>
+                     <button>Wear</button>
+                  </div>
                  <div>
-                     <img src="public/images/Shirt_temp_image.png" alt="Shirts">
+                     <img src="public/images/Skirt_temp_image.png" alt="Skirt">
                      <P>Description</P>
                      <p>Last Worn Date</p>
                      <button>Wear</button>
                  </div>
-               <div>
-                 <img src="public/images/Shoes_temp_image.png" alt="Shoes">
-                 <P>Description</P>
-                 <p>Last Worn Date</p>
-                 <button>Wear</button>
-               </div>
-               <div>
-                 <img src="public/images/Accessories_temp_image.png" alt="Accessories">
-                 <P>Description</P>
-                 <p>Last Worn Date</p>
-                 <button>Wear</button>
-              </div>
-             <div>
-                 <img src="public/images/Skirt_temp_image.png" alt="Skirt">
-                 <P>Description</P>
-                 <p>Last Worn Date</p>
-                 <button>Wear</button>
-             </div>
-              
-             </div>
-             <!-- closet database show for all info in the database should be a three by three square for web / tablet  and two by two for phone -->
-             
-             <!-- <script src="" async defer></script> -->
-         </body>
+                  
+                 </div>
+                 <!-- closet database show for all info in the database should be a three by three square for web / tablet  and two by two for phone -->
+                 
+                 <!-- <script src="" async defer></script> -->
+             </body>
+        </div>
+        <div class="footer">
+            <footer>
+                <!-- social media idcons , cookie settings  terms of use hot to and contact can be found here  -->
+                <div class="footer_social_links">
+                    <a class="fa-brands fa-facebook-f"></a>     
+                    <a class="fa-brands fa-instagram"></a> 
+                    <a class="fa-brands fa-x-twitter"></a> 
+                    <a class="fa-brands fa-tiktok"></a>
+                </div>
+                <div class="footer_menu">
+                    <a href="contact.html">contact us</a> 
+                    <a href="cookiesettings">cookie settings</a>
+                    <a href="tutorial"> How To</a>
+                    <a href="terms"> Terms of Use</a>
+                </div>
+            </footer>
+        </div>
     </div>
     
-    <footer>
-        <!-- social media idcons , cookie settings  terms of use hot to and contact can be found here  -->
-        <a class="fa-brands fa-facebook-f"></a>     
-        <a class="fa-brands fa-instagram"></a> 
-        <a class="fa-brands fa-x-twitter"></a> 
-        <a class="fa-brands fa-tiktok"></a>
-
-        <a href="contact.html">contact us</a> 
-         <a href="cookiesettings">cookie settings</a>
-         <a href="tutorial"> How To</a>
-         <a href="terms"> Terms of Use</a>
-    </footer>
 </html>
